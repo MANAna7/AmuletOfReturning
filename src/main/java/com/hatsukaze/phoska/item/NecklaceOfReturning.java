@@ -6,8 +6,9 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.CustomData;
+import top.theillusivec4.curios.api.type.capability.ICurioItem;
 
-public class NecklaceOfReturning extends Item {
+public class NecklaceOfReturning extends Item implements ICurioItem {
 
     public NecklaceOfReturning() {
         super(new Item.Properties().stacksTo(1));
