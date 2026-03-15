@@ -1,0 +1,10 @@
+{
+  "item.amuletofreturning.amulet_of_returning": "Amulet Of Returning",
+
+  "message.amuletofreturning.amulet_bound": "Waystone linked",
+  "message.amuletofreturning.amulet_unbound": "Waystone Unlinked",
+
+  "tooltip.amuletofreturning.amulet_of_returning.bound": "§ Waystone : [%d, %d, %d]",
+  "tooltip.amuletofreturning.amulet_of_returning.desc": "Consume an amulet to prevent death.",
+  "tooltip.amuletofreturning.amulet_of_returning.unbound": "Waystone Not linked"
+}

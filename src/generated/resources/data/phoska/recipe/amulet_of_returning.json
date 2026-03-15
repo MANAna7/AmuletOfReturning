@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "O": {
+      "tag": "c:obsidians"
+    },
+    "S": {
+      "tag": "c:strings"
+    }
+  },
+  "pattern": [
+    " S ",
+    "S S",
+    "AOA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "amuletofreturning:amulet_of_returning"
+  }
+}

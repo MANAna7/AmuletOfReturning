@@ -33,20 +33,20 @@ displayName="${mod_name}" #mandatory
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 
 # A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayURL="https://github.com/MANAna7/AmuletOfReturning" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="examplemod.png" #optional
+logoFile="icon.png" #optional
 
 # A text field displayed in the mod UI
 #credits="" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-#authors=""
+authors="Hatsukaze-Mana"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Example mod description.
+Add AmuletOfReturning. This Amulet is : Consume an amulet to prevent death. With the Waystones mod, sneak-right-click any waystone to set it as your return point.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
@@ -94,6 +94,20 @@ Example mod description.
     versionRange="[9.0,)"
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="waystones"
+type="optional"
+versionRange="[21.1,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="balm"
+type="optional"
+versionRange="[21.0,)"
+ordering="AFTER"
+side="BOTH"
 
 
 

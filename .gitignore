@@ -6,6 +6,14 @@ bin
 .classpath
 .project
 
+# OS
+.DS_Store
+Thumbs.db
+
+# logs
+logs/
+*.log
+
 # idea
 out
 *.ipr

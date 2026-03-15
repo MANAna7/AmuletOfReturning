@@ -1,0 +1,10 @@
+{
+  "item.amuletofreturning.amulet_of_returning": "帰還のお守り",
+
+  "message.amuletofreturning.amulet_bound": "ウェイストーンにリンクされました",
+  "message.amuletofreturning.amulet_unbound": "ウェイストーンのリンクを解除しました",
+
+  "tooltip.amuletofreturning.amulet_of_returning.bound": "§ Waystone : [%d, %d, %d]",
+  "tooltip.amuletofreturning.amulet_of_returning.desc": "お守りを代償に死から回避する",
+  "tooltip.amuletofreturning.amulet_of_returning.unbound": "Waystoneに未登録"
+}

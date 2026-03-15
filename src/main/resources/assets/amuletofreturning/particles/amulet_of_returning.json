@@ -1,6 +1,5 @@
 {
-  "replace": false,
-  "values": [
+  "textures": [
     "amuletofreturning:amulet_of_returning"
   ]
 }
